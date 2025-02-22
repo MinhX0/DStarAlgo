@@ -17,12 +17,12 @@ Thuật toán D* là một phương pháp tìm đường trong đồ thị, đ�
 -	Thuật toán sau đó lan truyền các thay đổi này qua đồ thị và lập kế hoạch lại đường đi từ nút bắt đầu đến nút đích.
 
 #Phân tích
-*Hiệu suất:
+Hiệu suất:
 1.	Độ phức tạp thời gian:
 -	Thuật toán D* có độ phức tạp thời gian tương tự như thuật toán A, tức là O(E+Vlog⁡V)O(E + V \log V), trong đó EE là số cạnh và VV là số nút trong đồ thị. Tuy nhiên, vì D có thể tái sử dụng thông tin từ các lần lập kế hoạch trước đó, nó có thể hiệu quả hơn trong các môi trường động.
 2.	Độ phức tạp không gian:
 -	Thuật toán D* yêu cầu không gian để lưu trữ thông tin về chi phí, con trỏ quay lại và danh sách mở cho mỗi nút. Do đó, độ phức tạp không gian là O(V)O(V).
-*Ưu điểm:
+Ưu điểm:
 1.	Thích ứng với môi trường động:
 -	Thuật toán D* có thể cập nhật đường đi một cách hiệu quả khi đồ thị thay đổi, mà không cần phải tính toán lại từ đầu như các thuật toán khác.
 2.	Hiệu quả trong việc tìm kiếm:
