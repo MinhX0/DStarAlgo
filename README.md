@@ -2,8 +2,8 @@
 #Mô tả:
 Thuật toán D* là một phương pháp tìm đường trong đồ thị, đặc biệt hữu ích cho các môi trường động nơi đồ thị có thể thay đổi theo thời gian. Bao gồm các bước thực hiện sau: 
 1.	Khởi tạo:
-o	Bắt đầu bằng việc thiết lập các điều kiện ban đầu, như xác định nút bắt đầu và nút đích.
-o	Khởi tạo danh sách mở (open list) là hàng đợi ưu tiên, lưu trữ các nút cần được mở rộng.
+- Bắt đầu bằng việc thiết lập các điều kiện ban đầu, như xác định nút bắt đầu và nút đích.
+-	Khởi tạo danh sách mở (open list) là hàng đợi ưu tiên, lưu trữ các nút cần được mở rộng.
 o	Thiết lập chi phí ban đầu cho nút bắt đầu là 0 và cho tất cả các nút khác là vô cực.
 o	Thiết lập con trỏ quay lại cho tất cả các nút là null.
 2.	Tìm đường:
